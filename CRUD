@@ -1,5 +1,11 @@
 ------------------CRUD OPERATIONS------------
 
+frist create database and use it 
+CREATE DATABASE STUDENTTABLE;
+USE STUDENTTABLE;
+then create table --------
+
+
 CREATE: // VARCHAR,DATE,INTEGER, UNIQUE(EMAIL)
 CREATE TABLE Students (
     StudentID INTEGER PRIMARY KEY,
