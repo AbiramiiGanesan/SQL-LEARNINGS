@@ -1,0 +1,21 @@
+----------------------SQL Table Creation Query-----------------
+
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,        // INTEGER
+    Name VARCHAR(100),                 //VARCHAR
+    Email VARCHAR(100) UNIQUE,        // VARCHAR(UNIQUE)
+    Department VARCHAR(50),          //VARCHAR
+    Salary DECIMAL(10,2),            //DECIMAL (10-DIGITS, 2-AFTER DOTS HOW MANY DIGITS TO COME)
+    DateOfBirth DATE,                //DATE
+    Gender VARCHAR(10),              //VARCHAR
+    Bonus DECIMAL(10,2)            //DECIMAL 
+);
+
+
+INSERT INTO Employees VALUES
+(101, 'Rahul Sharma', 'rahul.sharma@example.com', 'IT', 55000.00, '1990-05-12', 'Male', 5000.00),
+(102, 'Priya Singh', 'priya.singh@example.com', 'HR', 48000.00, '1992-08-23', 'Female', 4500.00),
+(103, 'Amit Verma', 'amit.verma@example.com', 'Finance', 60000.00, '1988-11-15', 'Male', 6000.00),
+(104, 'Neha Patel', 'neha.patel@example.com', 'Marketing', 52000.00, '1995-03-30', 'Female', 5200.00),
+(105, 'Vikram Rao', 'vikram.rao@example.com', 'Operations', 58000.00, '1991-07-19', 'Male', 5500.00);
+
