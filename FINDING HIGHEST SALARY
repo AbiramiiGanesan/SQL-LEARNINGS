@@ -33,7 +33,7 @@ WHERE Salary = (SELECT MAX(Salary) FROM Employees);
 -- second highest salary
 SELECT MAX(Salary) AS Second_Highest_Salary // AS Second_highest_salary is the heading in output 
 FROM Employees
-WHERE Salary < (SELECT MAX(Salary) FROM Employees);
+WHERE Salary < (SELECT MAX(Salary) FROM Employees);           ---< Less than symbol came here to indicates less than that maximum salary
 
 --third highest salary
 SELECT MAX(Salary) AS Third_Highest_Salary  //MAX(Salary) IF YOU DIDNT USE THIS MAX(SALARY) THEN IT WILL PRINT ALL SALARY IN OUTPUT
