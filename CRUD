@@ -18,3 +18,28 @@ WHERE StudentID = 1;
 DELETE:
 DELETE FROM Students
 WHERE StudentID = 1;
+
+
+
+-- 1. Create Table
+CREATE TABLE Students (
+    StudentID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Age INTEGER
+);
+
+-- 2. Insert (Create)
+INSERT INTO Students VALUES (1, 'Abirami', 21);
+INSERT INTO Students VALUES (2, 'Kavin', 22);
+
+-- 3. Read (Select)
+SELECT * FROM Students;
+
+-- 4. Update
+UPDATE Students SET Age = 23 WHERE StudentID = 1;
+
+-- 5. Delete
+DELETE FROM Students WHERE StudentID = 2;
+
+-- 6. Final Data
+SELECT * FROM Students;
