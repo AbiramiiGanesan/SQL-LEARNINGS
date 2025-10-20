@@ -1,0 +1,20 @@
+------------------CRUD OPERATIONS------------
+
+CREATE: // VARCHAR,DATE,INTEGER, UNIQUE(EMAIL)
+CREATE TABLE Students (
+    StudentID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Age INTEGER
+);
+
+READ: //SELECT
+SELECT * FROM Students; or SELECT * FROM Students WHERE StudentID = 1;
+
+UPDATE: //SET
+UPDATE Students
+SET Age = 22
+WHERE StudentID = 1;
+
+DELETE:
+DELETE FROM Students
+WHERE StudentID = 1;
